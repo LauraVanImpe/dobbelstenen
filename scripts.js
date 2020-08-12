@@ -8,13 +8,15 @@ function gooi() {
     
     console.log("Er is gegooid!");
 
-    console.log("Het willekeurige getal is " + Math.floor((Math.random()*6)+1));
-
     numbers.push(Math.floor((Math.random()*6)+1));
 
-    console.log("De array: " + numbers);
+    console.log(numbers);
 
     numbers.sort();
+    
+
+    var myArray = {1: 0, 2: 0, 3: 0, 4 :0, 5: 0, 6: 0};
+    console.log(myArray);
 
 };
 
