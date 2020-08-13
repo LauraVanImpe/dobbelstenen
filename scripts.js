@@ -51,7 +51,12 @@ function gooi() {
         numberSix++;
     };
 
-
+    document.getElementById('one').innerHTML = numberOne;
+    document.getElementById('two').innerHTML = numberTwo;
+    document.getElementById('three').innerHTML = numberThree;
+    document.getElementById('four').innerHTML = numberFour;
+    document.getElementById('five').innerHTML = numberFive;
+    document.getElementById('six').innerHTML = numberSix;
 
     numbers.length = 0;
 };
